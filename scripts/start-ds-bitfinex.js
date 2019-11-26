@@ -16,7 +16,7 @@ const dbBitfinex = new HFDB({
 })
 
 const dsBitfinex = new DataServer({
-  port: 23521,
+  port: 8899,
   db: dbBitfinex,
 })
 
